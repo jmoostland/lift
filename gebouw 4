@@ -1,0 +1,16 @@
+<?php
+    echo "<br>";
+    echo "<b> Gebouw 4 </b>";
+    echo "<br>";
+    echo "<br>";
+    
+$naamverdiepingen = array("1 receptie","2 horeca", "3 vergaderruimte", "4 kantoren.");
+$arrlenght = count ($naamverdiepingen);
+
+    echo "Dit gebouw bestaat uit de volgende verdiepingen:";
+    echo "<br>";
+        for($x = 0;$x < $arrlenght; $x++){  
+            echo $naamverdiepingen[$x];
+            echo "<br>";
+        }
+?>
